@@ -1,7 +1,7 @@
 # Python code generator using Transformer
 
 ## Dataset Preparation:
-1. The dataset used is ##makedataset and the script for preprocessing the data is used is ##preprocessing
+1. The dataset used is [python_dataset](https://github.com/trinanjan12/Trinanjan_END_NLP_Program/tree/main/session_14/dataset) and the script for preprocessing the data is used is [python_dataset_cleaning](https://github.com/trinanjan12/Trinanjan_END_NLP_Program/tree/main/session_14/dataset_preprocessing)
 2. The dataset is processed using pygments tokenizer library. https://pygments.org/
 3. spaces are considered as indentation
 4. 'code' is decoder input 'obj' is encoder input![dataset_example](images/python_dataset.png)
@@ -17,7 +17,7 @@
 ## Transformer training:
 1. The transformer uses pretrained glove embedding
 2. loss function is default ce loss
-3. The training and inference script could be found here [Transformer training]()
+3. The training and inference script could be found here ![transformer_training](https://github.com/trinanjan12/Trinanjan_END_NLP_Program/blob/main/session_14/trainsformer_training.ipynb)
 
 ## Sample Output:
 ![test1](images/test1.png)
